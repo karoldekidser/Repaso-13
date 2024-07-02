@@ -1,15 +1,67 @@
+*{
+    margin: 20px;
+}
+
+
 body{
+
     color: rgb(188, 199, 38);
     background-color: rgb(19, 51, 158);
 }
 h1{
     width: 70%;
 }
+
+.principal img{
+    width: 300px;
+}
+
 .principal{
     background-color: rgb(228, 72, 33);
     text-align:center;
-    
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+    
+.header{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header a {
+    color: rgb(28, 216, 169);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+display: flex;
+height: inherit;
+}
+
+
+.logo img{
+    width: 100px;
+}
+
+
 .segundo{
     background-color: aqua;
     text-align: center;
