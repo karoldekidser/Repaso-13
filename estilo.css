@@ -136,12 +136,13 @@ margin: 10px;
 }
 
 .aplicar-detalles{
-    width: 30%;
+    padding: 10px;
     height: inherit;
 }
 
-.aplicar-detalles img{
-    height: 90%;
+.aplicar-detalles2{
+    padding: 10px;
+    width: 100%;
 }
 
 .container1{
