@@ -5,9 +5,10 @@
 
 body{
 
-    color: rgb(188, 199, 38);
-    background-color: rgb(19, 51, 158);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 2, 179);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
 }
 h1{
     width: 70%;
@@ -110,12 +111,13 @@ height: inherit;
 */
 
 .juguetes h2{
-color: blue;
+color: rgb(28, 128, 241);
 margin: 10px;
 }
 
 .juguetes p{
     margin-bottom: 20px;
+    color: white;
 }
 
 
@@ -128,12 +130,13 @@ margin: 10px;
 
 .aplicar{
     height: 500px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     display: flex;
+    color: black;
 }
 
 .aplicar-detalles{
-    width: 50%;
+    width: 30%;
     height: inherit;
 }
 
@@ -141,3 +144,38 @@ margin: 10px;
     height: 90%;
 }
 
+.container1{
+    display: flex;
+    background: rgb(0, 255, 38);
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.container2{
+    background: black;
+}
+
+.col1-container{
+width: 400px;
+}
+
+.col2-container{
+width: 200px;
+}
+
+
+.col3-container{
+width: 300px;
+}
+
+.row1-contacto img{
+    width: 35px;
+}
+
+.row2-contacto img{
+    width: 35px;
+}
+
+.row1-redes img{
+    width: 35px;
+}
